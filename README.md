@@ -10,7 +10,7 @@ We chose an area of around 900m² (corresponding to a square of 30 meters size) 
 
 The sphere is then divided in longitudinal rings of constant width and the latitude width of all rectangular cells is computed so that all of them have the same area (900m²).
 
-The conversion between the longitude and the longitude index is easy because the increment is constant. On the other hand the latitude is obtained by an integral calculation.
+The conversion between the longitude and the longitude index is easy because the increment is constant. On the other hand the latitude conversion is obtained by an integral calculation.
 
 
 ## Graphical representation
