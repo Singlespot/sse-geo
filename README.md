@@ -6,7 +6,7 @@ SSE is a geospatial indexing system based on an equal-area isolongitudinal grid.
 
 We needed cells of equal area (in square meters, not square degrees), isolongitudinal for aesthetic reasons (so that layers stay vertically aligned) and as close as possible to squares, at least in a range of latitudes.
 
-We chose an area of around 900m² (corresponding to a square of 30 meters size) and a reference latitude (46.852) at which cells will be squares, which gave us the constant longitudinal span to use (about 0.0003945°).
+We chose an area of around 900m² (corresponding to a square of 30 meters size) and a reference latitude (46.852°) at which cells will be squares, which gave us the constant longitudinal span to use (about 0.0003945°).
 
 The sphere is then divided in longitudinal rings of constant width and the latitude width of all rectangular cells is computed so that all of them have the same area (900m²).
 
